@@ -31,4 +31,4 @@ app.use('/subCat', subCatRouter);
 app.use('/links', linkRouter);
 app.use('/user', userRouter);
 
-app.listen(8000, () => console.log('Server started'));
+app.listen(process.env.PORT, () => console.log('Server started'));
